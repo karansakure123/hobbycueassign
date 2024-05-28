@@ -1,0 +1,239 @@
+/* Ensure proper spacing and width for form elements */
+.col-md-4 {
+  max-width: 400px;
+  /* Adjust the max-width as needed */
+  margin: auto;
+  /* Center the form in its container */
+}
+
+body {
+  padding-top: 100px;
+}
+.card-sec2{
+  height: 40vh;
+  border: 1px solid gray;
+  padding: 2rem;
+}
+.btn-f{
+border: 1px solid rgb(37, 37, 37) !important;
+}
+.btn-g{
+  border: 1px solid rgb(37, 37, 37) !important;
+
+}
+.btn-f:hover{
+  background-color: rgb(233, 233, 233) !important;
+}
+.btn-g:hover{
+  background-color: rgb(233, 233, 233) !important;
+}
+.home-sec3{
+
+  background-color: #f3f4f8;
+  height: 50vh !important;
+}
+.home-sec3-container{
+
+  padding: 4rem !important;
+  border: 1px solid gray;
+}
+
+
+#signInForm,
+#joinInForm {
+  width: 100%;
+}
+
+.home-sec1 {
+  text-align: justify;
+  padding: 2rem;
+  background-color: rgb(241, 241, 241);
+}
+
+.btn-f,
+.btn-g {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.btn-f {
+  background-color: #4267B2;
+  /* Facebook blue */
+  color: white;
+}
+
+.btn-g {
+  background-color: #DB4437;
+  /* Google red */
+  color: white;
+}
+
+.purple-icon {
+  margin-left: 10px;
+  color: purple;
+}
+
+.btn-f:hover,
+.btn-g:hover {
+  opacity: 0.9;
+}
+
+.signin-btn {
+  border: 1px solid gray !important;
+  color: purple !important;
+  width: 80%;
+}
+
+.signin-btn:hover {
+  background-color: purple;
+  color: white;
+}
+
+.navbar-nav {
+  flex-grow: 1;
+}
+
+.nav-item {
+  flex-grow: 1;
+}
+
+.dropdown-menu {
+  font-size: 12px;
+  margin-left: -8rem;
+  width: 300px;
+  /* Adjust the width as needed */
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+.form-check-label {
+  margin-left: 5px;
+}
+
+h2,
+h4 {
+  margin-bottom: 15px;
+}
+
+h4 {
+  cursor: pointer;
+  color: #6c757d;
+}
+
+h4:hover {
+  color: #343a40;
+}
+
+hr {
+  margin: 10px 0;
+}
+
+.toggle-form {
+  display: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.btn[type="submit"] {
+  background-color: rgb(189, 65, 189);
+  color: white;
+}
+
+.btn-f {
+  background-color: transparent;
+  border: 1px solid gray;
+  color: rgb(61, 61, 61);
+
+
+}
+
+.btn-g {
+  background-color: transparent;
+  border: 1px solid gray;
+  color: rgb(61, 61, 61);
+}
+
+.btn-f:hover {
+  border: 1px solid gray;
+  background-color: #d4d4d4;
+}
+
+.btn-g:hover {
+  border: 1px solid gray;
+  background-color: hsl(0, 0%, 88%);
+}
+
+.btn[type="submit"]:hover {
+  background-color: darkmagenta;
+}
+
+.home-sec3-container {
+   margin-top: 4rem;
+  margin-bottom: 7rem;
+  padding: 4rem;
+   background-color: rgb(240, 255, 255);
+}
+.home-ec3-container{
+  border: 1px  solid gray;
+
+}
+.add-btn {
+  font-size: 12px;
+  border: 1px solid gray !important;
+}
+
+.home-sec4 {
+  padding: 3rem;
+  background-color: rgb(243, 225, 243);
+}
+
+.home-sec5 {
+  padding: 2rem;
+
+  height: auto;
+  margin-bottom: 4rem;
+  background-color: rgb(251, 249, 255);
+}
+
+/* Ensure proper layout for larger screens */
+@media (min-width: 768px) {
+  .col-md-4 {
+      max-width: none;
+  }
+
+
+}
+
+@media (max-width: 767px) {
+  .dropdown-menu .list-unstyled li a {
+      font-size: 16px;
+      /* Adjust font size as needed */
+      line-height: 1.5;
+      /* Adjust line height for better readability */
+      margin-left: 0px !important;
+  }
+
+  .dropdown-menu {
+      font-size: 12px;
+      margin-left: -0em;
+      border: none;
+      width: 200px;
+      /* Adjust the width as needed */
+  }
+
+}
